@@ -1,0 +1,5 @@
+[
+  {"id": "az-vm-001", "name": "az-web-01", "location": "eastus", "vmSize": "Standard_B2s", "powerState": "running", "osType": "Linux", "privateIp": "10.1.0.4", "diskGb": 30, "tags": {"owner": "ashwin", "env": "demo"}},
+  {"id": "az-vm-002", "name": "az-db-01", "location": "eastus", "vmSize": "Standard_D2s_v3", "powerState": "deallocated", "osType": "Windows", "privateIp": "10.1.0.5", "diskGb": 128, "tags": {"owner": "priya", "env": "demo"}},
+  {"id": "az-vm-003", "name": "az-app-01", "location": "westeurope", "vmSize": "Standard_B1s", "powerState": "running", "osType": "Linux", "privateIp": "10.2.0.4", "diskGb": 30, "tags": {"owner": "ravi", "env": "demo"}}
+]

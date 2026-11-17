@@ -1,0 +1,5 @@
+[
+  {"moid": "vm-101", "name": "vm-erp-01", "cluster": "cluster-a", "num_cpu": 4, "memory_mb": 8192, "disk_gb": 100, "guest_os": "Ubuntu 22.04", "ip": "192.168.10.11", "power_state": "poweredOn", "owner": "ashwin"},
+  {"moid": "vm-102", "name": "vm-erp-02", "cluster": "cluster-a", "num_cpu": 2, "memory_mb": 4096, "disk_gb": 60, "guest_os": "Windows Server 2022", "ip": "192.168.10.12", "power_state": "poweredOff", "owner": "priya"},
+  {"moid": "vm-103", "name": "vm-build-01", "cluster": "cluster-b", "num_cpu": 8, "memory_mb": 16384, "disk_gb": 200, "guest_os": "Ubuntu 22.04", "ip": "192.168.20.5", "power_state": "poweredOn", "owner": "ravi"}
+]

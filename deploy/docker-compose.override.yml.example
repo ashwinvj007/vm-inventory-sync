@@ -1,0 +1,8 @@
+services:
+  netbox:
+    ports:
+      - "127.0.0.1:8000:8080"
+  moto:
+    image: motoserver/moto:latest
+    ports:
+      - "127.0.0.1:5050:5000"
